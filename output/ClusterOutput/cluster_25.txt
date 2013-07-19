@@ -1,0 +1,69 @@
+###############################################################
+# Settings:
+# de.lmu.ifi.dbs.elki.workflow.InputStep
+# -db StaticArrayDatabase
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -dbc FileBasedDatabaseConnection
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.in /home/mihirshekhar/Dataset/chameleonDS3.dat
+# -dbc.parser NumberVectorLabelParser
+# 
+# de.lmu.ifi.dbs.elki.datasource.parser.NumberVectorLabelParser
+# -parser.colsep (\s+|\s*[,;]\s*)
+# -parser.quote "
+# -parser.labelIndices [unset]
+# -parser.vector-type DoubleVector
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.filter [unset]
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -db.index [unset]
+# 
+# de.lmu.ifi.dbs.elki.workflow.AlgorithmStep
+# -time false
+# -algorithm clustering.DBSCAN
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.DBSCAN
+# -algorithm.distancefunction EuclideanDistanceFunction
+# -dbscan.epsilon 5.70000000
+# -dbscan.minpts 4
+# 
+# de.lmu.ifi.dbs.elki.workflow.EvaluationStep
+# -evaluator AutomaticEvaluation
+###############################################################
+# Cluster: Cluster 25
+ID=152 318.694 369.30899
+ID=4592 318.373993 369.299011
+ID=3471 317.88501 368.544006
+ID=3251 321.091003 366.782013
+ID=2756 315.705994 371.246002
+ID=8067 321.653992 366.675995
+ID=3253 321.703003 372.977997
+ID=9921 315.049011 372.453003
+ID=1807 313.937988 370.786011
+ID=6175 314.833008 365.39801
+ID=5727 312.230988 368.082001
+ID=4925 315.424011 374.700989
+ID=5038 314.755005 374.811005
+ID=7214 313.859985 374.769012
+ID=8229 318.234985 375.199005
+ID=3809 311.259003 373.554993
+ID=5996 309.714996 369.428986
+ID=6300 309.394989 365.089996
+ID=3873 308.096008 366.368988
+ID=3344 308.677002 364.605988
+ID=3015 308.729004 363.804993
+ID=1325 319.169006 378.123993
+ID=6535 322.17099 376.73999
+ID=1073 324.230011 378.95401
+ID=536 321.473999 383.121002
+ID=3296 326.05899 381.239014
+ID=738 326.563995 381.272003
+ID=7649 304.472992 365.007996
+ID=9535 309.96701 361.839996
+ID=6783 301.649994 365.576996
+ID=8351 301.688995 369.735992
+###############################################################

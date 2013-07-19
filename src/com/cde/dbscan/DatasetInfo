@@ -1,0 +1,4 @@
+This file contains epsilon,minpts and K used for each Dataset
+Values on ElKI
+Dataset Name             Dimension MinPts   Epsilon
+Chamaleon Dataset DS3       2       4         5.7

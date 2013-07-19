@@ -1,0 +1,50 @@
+###############################################################
+# Settings:
+# de.lmu.ifi.dbs.elki.workflow.InputStep
+# -db StaticArrayDatabase
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -dbc FileBasedDatabaseConnection
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.in /home/mihirshekhar/Dataset/chameleonDS3.dat
+# -dbc.parser NumberVectorLabelParser
+# 
+# de.lmu.ifi.dbs.elki.datasource.parser.NumberVectorLabelParser
+# -parser.colsep (\s+|\s*[,;]\s*)
+# -parser.quote "
+# -parser.labelIndices [unset]
+# -parser.vector-type DoubleVector
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.filter [unset]
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -db.index [unset]
+# 
+# de.lmu.ifi.dbs.elki.workflow.AlgorithmStep
+# -time false
+# -algorithm clustering.DBSCAN
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.DBSCAN
+# -algorithm.distancefunction EuclideanDistanceFunction
+# -dbscan.epsilon 5.70000000
+# -dbscan.minpts 4
+# 
+# de.lmu.ifi.dbs.elki.workflow.EvaluationStep
+# -evaluator AutomaticEvaluation
+###############################################################
+# Cluster: Cluster 8
+ID=89 217.100006 353.244995
+ID=7450 217.404999 357.006012
+ID=4032 217.768997 348.277008
+ID=4072 216.684006 347.716003
+ID=6580 221.220993 344.022003
+ID=5927 223.216003 344.967987
+ID=6980 223.697998 344.578003
+ID=6661 217.505005 342.479004
+ID=5957 228.347 344.643005
+ID=2634 228.440994 344.549988
+ID=1426 230.283005 344.247009
+ID=1391 233.425003 342.846985
+###############################################################
